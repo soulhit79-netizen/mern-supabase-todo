@@ -1,0 +1,27 @@
+{
+  "name": "mern-supabase-todo",
+  "version": "1.0.0",
+  "description": "Minimalistic Todo Web App demonstrating CRUD operations using MERN Stack + Supabase",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "mern",
+    "supabase",
+    "crud",
+    "todo",
+    "react",
+    "express",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
+}
